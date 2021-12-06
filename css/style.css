@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* { padding: 0; margin: 0; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.navbar { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; background-color: #105e93; padding: 1vh; }
+
+.navbar .title { font-family: Lato, Arial, Helvetica, sans-serif; font-weight: 600; font-size: 2rem; color: #ffffff; }
+
+.gameWrapper { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; width: 100%; height: 93.85vh; padding: 15vh 0; background-color: #1c7fbf; }
+
+.gameWrapper .gameData { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 1rem; }
+
+.gameWrapper .gameData .mainGame { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; margin: 3rem; }
+
+.gameWrapper .gameData .mainGame .dispText { color: #ffffff; font-family: Lato, Arial; padding: 20px; font-size: 2.5rem; margin-left: 20px; margin-right: 20px; text-align: center; }
+
+.gameWrapper .gameData .mainGame #inputText { width: 22rem; height: 3rem; padding: 2rem; margin-top: 4rem; border-radius: 15px; border: medium none; text-align: center; font-size: 30px; }
+
+.gameWrapper .gameData .mainGame .startBtn { text-align: center; margin-top: 10vh; padding: 1em 3em; background-color: #00b188; border: 2px solid #ffffff; color: #ffffff; font-family: Lato, Arial; border-radius: 2rem; -webkit-box-shadow: #595959 1px 2px 10px; box-shadow: #595959 1px 2px 10px; }
+
+.gameWrapper .gameData .mainGame .startBtn:active { -webkit-box-shadow: none; box-shadow: none; -webkit-transition: 0.09s ease-in-out; transition: 0.09s ease-in-out; }
+
+.gameWrapper .gameData .score, .gameWrapper .gameData .time { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; padding: 2rem; margin: 2.5srem; color: #d7d7d7; font-family: Lato, Arial; font-size: 2em; }
+
+.gameWrapper .gameData .score .timeLeft, .gameWrapper .gameData .score .scoreAmt, .gameWrapper .gameData .time .timeLeft, .gameWrapper .gameData .time .scoreAmt { padding: 2rem; }
+
+.hidden { display: none; }
