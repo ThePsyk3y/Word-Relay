@@ -461,6 +461,7 @@ let words = [
 
 startBtn.addEventListener('click', () => {
   inputField.classList.toggle('hidden');
+  inputField.focus();
   startBtn.classList.toggle('hidden');
 
   reset();
