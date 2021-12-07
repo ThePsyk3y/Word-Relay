@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <base href="." />
     <title>Word Relay</title>
   </head>
   <body>
@@ -18,6 +19,10 @@
           <div class="scoreAmt">0</div>
         </div>
         <div class="mainGame">
+          <div class="highScore">
+            High Score
+            <div class="highScoreVal">0</div>
+          </div>
           <div class="dispText">Click Start to Play!</div>
           <input
             type="text"
@@ -37,6 +42,6 @@
     <div class="footer">
       <a href="http://github.com/ThePsyk3y" class="links"> Made by ThePsyk3y</a>
     </div>
-    <script src="script.js"></script>
+    <script src="script.js" type="module"></script>
   </body>
 </html>
